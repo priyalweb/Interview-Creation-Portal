@@ -1,0 +1,294 @@
+body {
+    background-color: #ffffff;
+    background-image: url("https://willispersonallines.com/wp-content/uploads/2015/04/Girl-with-Laptop.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+  
+    font-family: Georgia, "Times New Roman", Times, serif;
+  
+  }
+  
+  .indexc {
+      background-image: linear-gradient(to right, rgb(0 87 3 / 50%) , rgb(0 98 204 / 50%));
+      margin-left: 6.5%;
+      margin-top: 4%;
+      width: 55%;
+      border-radius: 1%;
+      padding-left: 3%;
+      padding-top: 1%;
+      padding-bottom: 3%;
+  }
+  .indexc> h1 {
+      font-size: 2.5rem;
+      margin-bottom: 4%;
+      background-color: rgb(0 123 255 / 0.3);
+      width: 80%;
+  }
+  
+  .loginc {
+      background-image: linear-gradient(to right, rgb(0 87 3 / 50%) , rgb(0 98 204 / 50%));
+      margin-left: 6.5%;
+      margin-top: 4%;
+      width: 55%;
+      border-radius: 1%;
+      padding-left: 3%;
+      padding-top: 1%;
+      padding-bottom: 3%;
+  }
+  
+  .addc {
+      background-image: linear-gradient(to right, rgb(0 87 3 / 50%) , rgb(0 98 204 / 50%));
+      margin-left: 6.5%;
+      margin-top: 4%;
+      width: 55%;
+      border-radius: 1%;
+      padding-left: 3%;
+      padding-top: 1%;
+      padding-bottom: 3%;
+  }
+  .addc>h1 {
+      font-size: 2.5rem;
+      margin-bottom: 4%;
+      background-color: rgb(0 123 255 / 0.3);
+      width: 65%;
+  }
+  
+  .editc {
+      background-image: linear-gradient(to right, rgb(0 87 3 / 50%) , rgb(0 98 204 / 50%));
+      margin-left: 6.5%;
+      margin-top: 4%;
+      width: 55%;
+      border-radius: 1%;
+      padding-left: 3%;
+      padding-top: 1%;
+      padding-bottom: 3%;
+  }
+  .editc>h1 {
+      font-size: 2.5rem;
+      margin-bottom: 4%;
+      background-color: rgb(0 123 255 / 0.3);
+      width: 65%;
+  }
+  
+  .viewc {
+      background-image: linear-gradient(to right, rgb(0 87 3 / 30%) , rgb(0 98 204 / 50%));
+      margin-left: 6.5%;
+      margin-top: 4%;
+      width: 55%;
+      border-radius: 1%;
+      padding-left: 3%;
+      padding-top: 1%;
+      padding-bottom: 3%;
+      font-weight: 700;
+      color: black;
+  }
+  .viewc> h1{
+      font-size: 2.5rem;
+      margin-bottom: 8%;
+      background-color: rgb(0 123 255 / 0.3);
+      width: 50%;
+  }
+  
+  .deletec {
+      background-image: linear-gradient(to right, rgb(0 87 3 / 30%) , rgb(0 98 204 / 50%));
+      margin-left: 6.5%;
+      margin-top: 4%;
+      width: 55%;
+      border-radius: 1%;
+      padding-left: 3%;
+      padding-top: 1%;
+      padding-bottom: 3%;
+      font-weight: 700;
+      color: black;
+  }
+  .deletec> h1{
+      font-size: 2.5rem;
+      margin-bottom: 8%;
+      background-color: rgb(0 123 255 / 0.3);
+      width: 50%;
+  }
+  #loginbutton{
+      background-color: rgb(0 126 13 / 70%);
+      width: 30%;
+      font-size: 15;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+  }
+  
+  #logoutbutton{
+      background-color: rgb(255 0 0 / 50%);
+      width: 20%;
+      font-size: 15;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+  }
+  
+  #loginbutton:hover{
+      background-color: rgb(255 255 255);;
+      color: rgb(0 126 13 / 100%);
+  }
+  #logoutbutton:hover {
+      background-color: rgb(255 255 255);;
+      color: rgb(255 0 0 / 100%);;
+  }
+  
+  .addbutton{
+      background-color: rgb(30 126 52 / 0.9);
+      width: 20%;
+      font-size: 15;
+      padding-bottom: 1.5%;
+      padding-top: 1.5%;
+      border-width: 1px 5px 5px 1px;
+      border: solid #055816;   
+  }
+  .cancelbutton{
+      background-color: rgb(255 0 0 / 70%);
+      width: 20%;
+      font-size: 15;
+      padding-bottom: 1.5%;
+      padding-top: 1.5%;
+  }
+  
+  
+  
+  #id_0{
+      margin-left: 8%;
+      background-color: rgb(255 255 255 / 0.7);
+  }
+  
+  #id_1723{
+      margin-left: 3.8%;
+      background-color: rgb(255 255 255 / 0.7);
+  
+  }
+  
+  #id_111{
+      margin-top: 6%;
+      margin-bottom: 4%;
+      margin-right: 2%;
+      background-color: rgb(23 215 51 / 0.6);
+  }
+  
+  #id_222{
+      background-color: rgb(255 25 25 / 60%);
+  }
+  
+  /* .b111 {
+  
+  } */
+  
+  
+  .indexc > table {
+      border-collapse: collapse;
+      color: rgb(29 29 30 / 80%);
+      border: 3px solid black;
+      border-radius: 10px 10px 0 0;
+      text-align: center;
+      font-family: Roboto,"Courier New",Georgia;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 25px;
+      margin: 0 10%;
+      text-shadow: 0px 1px 0px rgba(118, 110, 110, 0.8);
+      border-collapse: separate;
+      border-spacing: 0px;
+  
+  }
+  tr {
+      display: table-row;
+      vertical-align: none;
+      border-color: none;
+  }
+  
+  th {
+      background: linear-gradient(rgb(0 124 59) 0%,rgb(243, 243, 191) 100%);
+      border-spacing: 0;
+      border-bottom: 2px solid rgb(239 237 255);;
+      border-right: 1px solid floralwhite;
+      padding: 5px;
+      text-align: center;
+      font-size: 18px;
+      color: rgb(85, 82, 95);
+  }
+  
+  tr > td{
+      background: rgb(6 41 143 / 0.1);
+      border: 1px solid floralwhite;
+      color: rgb(0 0 0);
+      font-weight: 550;
+  }
+  
+  tr:hover{ 
+      background: rgb(36 70 165 / 50%);
+      color: rgba(64, 64, 75, 1);
+  }
+  tr>th:first-child{
+      border-radius: 10px 0 0 0;
+      border-left: none;
+  }
+  tr>th:last-child{
+      border-radius: 0 10px 0 0;
+      border-right: none;
+  }
+  
+  .fn,.ln, .em,.he,.sm,.ed,.po,.school,.desc,.minus{
+      background-color: rgb(225 225 225 / 90%);
+  }
+  .fn{
+      margin-left: 2%
+  }
+  .ln{
+      margin-left: 2.3%;
+  }
+  .em{
+      margin-left: 6.7%;
+  }
+  .addc > p , .editc > p{
+      font-size: 15;
+      color: red;
+  }
+  .ye{
+      margin-left: 8%;
+      background-color: rgb(225 225 225 / 90%);
+  }
+  .po{
+      margin-left: 3.5%;
+  }
+  .ed{
+      margin-left: 2%;
+  }
+  .school{
+      margin-left: 6%
+  }
+  
+  a:link, a:visited {
+      /* background-color: #f44336; */
+      color: rgb(255 255 255);
+      padding: 10px 15px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+  }
+  
+  a:hover, a:active {
+      background-color: rgb(255 255 255 / 0.2);
+      color: white;
+  }
+  
+  .lasttt{
+          color: #bfbaba;
+      font-style: italic;
+  }
+  
+  .addbutton{
+      background-color: rgb(30 126 52 / 0.9);
+      width: 20%;
+      font-size: 15;
+      padding-bottom: 1.5%;
+      padding-top: 1.5%;
+      border-width: 1px 5px 5px 1px;
+      border: solid #055816;   
+  }

@@ -1,0 +1,76 @@
+CREATE DATABASE interviewall;
+GRANT ALL ON interviewall.* TO 'priyal'@'localhost' IDENTIFIED BY 'badminton';
+GRANT ALL ON interviewall.* TO 'priyal'@'127.0.0.1' IDENTIFIED BY 'badminton';
+
+
+CREATE TABLE users (
+   user_id INTEGER NOT NULL
+     AUTO_INCREMENT KEY,
+   name VARCHAR(128),
+   email VARCHAR(128),
+   password VARCHAR(128),
+   INDEX(email)
+) ENGINE=InnoDB CHARSET=utf8;
+
+
+INSERT INTO users (name,email,password)
+    VALUES ('admin','cool admin@gmail.com','83699e97a7dfb2636fee4c0c12bff008');
+
+CREATE TABLE Profile (
+  profile_id INTEGER NOT NULL AUTO_INCREMENT,
+  first_name TEXT,
+  last_name TEXT,
+  email TEXT,
+  summary TEXT,
+
+  PRIMARY KEY(profile_id),
+
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+INSERT INTO profile (first_name,last_name,email,summary)
+    VALUES ('Rachna','Singh','rach@gmail.com','Hi I am Rachna');
+
+
+CREATE TABLE Interview (
+  interview_id INTEGER,
+  user_id INTEGER,
+  profile_id INTEGER,
+  rank INTEGER,
+  start TIME,
+  end Time,
+  date DATE,
+  headline TEXT,
+  summary TEXT,
+
+  CONSTRAINT interview_ibfk_1
+        FOREIGN KEY (profile_id)
+        REFERENCES Profile (profile_id)
+        ON DELETE CASCADE ON UPDATE CASCADE,
+
+
+  PRIMARY KEY(interview_id, profile_id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+ALTER TABLE `interviewall`.`interview` DROP PRIMARY KEY, ADD PRIMARY KEY (`interview_id`) USING BTREE;
+
+CREATE TABLE Meeting (
+  meeting_id INTEGER,
+  interview_id INTEGER,
+  profile_id INTEGER,
+  rank INTEGER,
+
+  CONSTRAINT meeting_ibfk_1
+        FOREIGN KEY (profile_id)
+        REFERENCES Profile (profile_id)
+        ON DELETE CASCADE ON UPDATE CASCADE,
+    
+    CONSTRAINT meeting_ibfk_2
+        FOREIGN KEY (interview_id)
+        REFERENCES Interview (interview_id)
+        ON DELETE CASCADE ON UPDATE CASCADE,
+
+
+  PRIMARY KEY(meeting_id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
