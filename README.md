@@ -1,5 +1,5 @@
 # Interview-Creation-Portal
-Scaler Assignment
+Full Stack Assignment
 
 ### Admin Log In
 ![screencapture-localhost-myprojects-interviewall-index-php-2021-12-18-20_29_41](https://user-images.githubusercontent.com/56549165/146645504-76e7021f-8cb2-47d8-bac4-561e34b129d3.png)
