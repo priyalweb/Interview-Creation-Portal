@@ -25,6 +25,7 @@ session_start();
 <body id="backg">
   <div class="container indexc">
       <h1>Schedule Interviews and Meetings</h1>
+    
       <?php
           if( !isset($_SESSION['name']) ){
               $link_address3 = 'login.php';
