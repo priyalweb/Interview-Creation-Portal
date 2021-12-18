@@ -32,7 +32,7 @@ function validateProfile(){
 }
 
 //LOOK THOUGH THE POST DATA AND RETURN TRUE OR ERROR msg
-//CONSTRAINT#2
+//CONSTRAINT#2 - No of participants in a meeting is less than 2
 function validateCount(){
     $count = 0;
     for($i=1 ; $i<=10 ;$i++){
@@ -50,7 +50,7 @@ function validateCount(){
     return true;
   }
 
-//CONSTRAINT#1
+//CONSTRAINT#1 - Any of the participants is not available during the scheduled time (i.e, has another interview scheduled)
 function validatePer(){
     for($i=1; $i<=10; $i++) {
       if( ! isset($_POST['name'.$i]) ) continue;
