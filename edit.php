@@ -202,6 +202,7 @@ $persons = loadEdu($pdo, $_REQUEST['interview_id']);
       <div>
 
   </script>
+    
  </div>
  </body>
  </html>
