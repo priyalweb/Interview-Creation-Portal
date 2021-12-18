@@ -24,7 +24,7 @@ A simple app where admins can create interviews by selecting participants, inter
 
 **Scope of the project:** (Not implemented yet)
 - Send emails to participants on interview creation.
-- Create your app’s frontend as a SPA
+- Create app’s frontend as a SPA
 - Option to upload resume
 
 
