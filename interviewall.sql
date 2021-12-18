@@ -27,6 +27,7 @@ SET time_zone = "+00:00";
 -- Table structure for table `interview`
 --
 
+
 CREATE TABLE `interview` (
   `interview_id` int(11) NOT NULL,
   `user_id` int(11) DEFAULT NULL,
