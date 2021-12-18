@@ -66,7 +66,6 @@ if( isset($_POST["email"]) && isset($_POST["pass"]) ){
 
     <script>
       function doValidate() {
-
         console.log('Validating...');
 
         try {
