@@ -39,7 +39,7 @@ A simple app where admins can create interviews by selecting participants, inter
 ### Edit the interviews with constraints validation 
 ![screencapture-localhost-myprojects-interviewall-edit-php-2021-12-18-20_34_47](https://user-images.githubusercontent.com/56549165/146645637-734744ef-18c1-4a42-9875-369388f45129.png)
 ### Delete the interviews 
-![screencapture-localhost-myprojects-interviewall-edit-php-2021-12-18-20_34_47](https://user-images.githubusercontent.com/56549165/146645683-510343ae-e9b7-4f9f-b0c4-2534fa9c9266.png)
+![screencapture-localhost-myprojects-interviewall-delete-php-2021-12-19-01_42_11](https://user-images.githubusercontent.com/56549165/146654435-0f495c81-0b1a-4b57-9c36-ea2e61a065f8.png)
 ### MYSQL Database
 ![2021-12-18-20-46-localhost](https://user-images.githubusercontent.com/56549165/146646120-34bffc7c-9d88-449d-9380-6d21e914fb34.png)
 
