@@ -1,2 +1,2 @@
-# Interview-Creation-Portel
+# Interview-Creation-Portal
 Scaler Assignment
