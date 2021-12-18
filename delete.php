@@ -17,6 +17,7 @@ if ( isset($_POST['delete']) && isset($_POST['interview_id'])
     header( 'Location: index.php' ) ;
     return;
 }
+
 if (isset($_POST['cancel'])){
   header( 'Location: index.php' ) ;
   return;
